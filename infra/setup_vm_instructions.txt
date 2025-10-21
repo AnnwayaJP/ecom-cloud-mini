@@ -1,0 +1,9 @@
+# Simulated VM Setup (Local Ubuntu or WSL)
+1. Install Ubuntu via VirtualBox or enable WSL on Windows.
+2. Update system:
+   sudo apt update && sudo apt upgrade -y
+3. Install Apache web server:
+   sudo apt install apache2 -y
+4. Start service:
+   sudo systemctl start apache2
+5. Check via browser: http://localhost
